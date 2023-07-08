@@ -1,0 +1,144 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-07-08T03:05:37.834Z",
+    "end": "2023-07-08T03:06:13.374Z",
+    "duration": 35540,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "78cf541d-8193-4c87-8183-6ba7a826b2ee",
+      "title": "",
+      "fullFile": "cypress/integration/dashboard.ts",
+      "file": "cypress/integration/dashboard.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "Test Sauce Demo Sauce labs product backpack",
+          "fullTitle": "Test Sauce Demo Sauce labs product backpack",
+          "timedOut": null,
+          "duration": 8304,
+          "state": "passed",
+          "speed": "medium",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "dashboardPage.sauceLabsBackpack();",
+          "err": {},
+          "uuid": "4f2bd62d-f716-4ee1-8eb5-b21f2f28c5aa",
+          "parentUUID": "78cf541d-8193-4c87-8183-6ba7a826b2ee",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Test add item to cart",
+          "fullTitle": "Test add item to cart",
+          "timedOut": null,
+          "duration": 7252,
+          "state": "passed",
+          "speed": "medium",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "dashboardPage.addSauceLabsBackpack();",
+          "err": {},
+          "uuid": "fd84faf4-8c17-431a-90ee-64f75d929e50",
+          "parentUUID": "78cf541d-8193-4c87-8183-6ba7a826b2ee",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Test remove item from cart",
+          "fullTitle": "Test remove item from cart",
+          "timedOut": null,
+          "duration": 5964,
+          "state": "passed",
+          "speed": "medium",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "dashboardPage.addSauceLabsBackpack();\ndashboardPage.removeSauceLabsBackpack();",
+          "err": {},
+          "uuid": "71a46104-5109-415c-971f-e62c4ed91397",
+          "parentUUID": "78cf541d-8193-4c87-8183-6ba7a826b2ee",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Test sort item by filter",
+          "fullTitle": "Test sort item by filter",
+          "timedOut": null,
+          "duration": 9032,
+          "state": "passed",
+          "speed": "medium",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "dashboardPage.filterByAZ(); // filtered by name A to Z\ncy.wait(1000);\ndashboardPage.filterByZA(); // filtered by name Z to A\ncy.wait(1000);\ndashboardPage.filterByLowHigh(); // filtered by price Low to High\ncy.wait(1000);\ndashboardPage.filterByHighLow(); // filtered by price High to Low",
+          "err": {},
+          "uuid": "088cd4d6-76d4-4305-82e0-7554d40ae567",
+          "parentUUID": "78cf541d-8193-4c87-8183-6ba7a826b2ee",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "4f2bd62d-f716-4ee1-8eb5-b21f2f28c5aa",
+        "fd84faf4-8c17-431a-90ee-64f75d929e50",
+        "71a46104-5109-415c-971f-e62c4ed91397",
+        "088cd4d6-76d4-4305-82e0-7554d40ae567"
+      ],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 30552,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "chart": true,
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "reportDir": "cypress/reports"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

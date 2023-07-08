@@ -19,7 +19,7 @@ export class LoginPage{
     }
     assertLogin(){
         cy.get('.title').should('be.visible')
-        cy.get('.peek').should('be.visible')
+        // cy.get('.peek').should('be.visible') //The locator '.peek' has been replaced
         cy.contains('Products').should('contain','Products')
     }
     assertLoginFail(){

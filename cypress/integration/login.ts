@@ -15,8 +15,4 @@ it('Test Sauce Demo Invalid Password', () => {
     loginPage.assertLoginFail()
 })
 
-it('Test Sauce Demo Sauce labs product backpack', () => {
-    loginPage.login(URL,'standard_user','secret_sauce')
-    loginPage.assertLogin()
-    dashboardPage.sauceLabsBackpack() 
-})
+
