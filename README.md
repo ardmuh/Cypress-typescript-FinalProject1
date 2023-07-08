@@ -1,22 +1,32 @@
-# Cypress
-This automation is written in TypeScript (a strict syntactical superset of JavaScript and adds optional static typing to the language)
+# Final Project - Task 1 - UI Automation
 
-## Running Tests
+Repository ini berisikan final project UI Automation Testing menggunakan Cypress dan TypeScript dari website Swag Labs
+```
+https://www.saucedemo.com/
+```
 
-## How to run
+link Test Scenario [here][linkTestCases] <br>
+Link Video Recording [here][linkVideo]
 
-```bash
+## Instalasi 
+Untuk menjalankan program ini perlu untuk:
+- Clone repository.
+- Inisiasikan npm dan install dependency yang dibutuhkan
+```
 npm install
 ```
-
-run cypress
-```bash
+- Jalankan program
+```
 npx cypress run
 ```
-
-open cypress dashboard
-```bash
+- Buka Cypress dashboard
+```
 npx cypress open
 ```
 
-### Thanks
+
+
+
+[linkTestCases]: https://docs.google.com/spreadsheets/d/1mYhITDdEhuWIEh90YX6xOZ1roJ0SDssxZbQZ4GzsLaw/edit?usp=sharing 
+[linkVideo]: https://drive.google.com/file/d/19ybxuFTFkQRBUHYCxYisLjhZKXvp8-kt/view?usp=sharing
+
